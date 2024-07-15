@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#menu-superior{
+    background-color: #303030;
+    padding-bottom: 70px;
+    Width: 1920px;
+    Height: 475px;
+}
+
+#titulo-menu-superior{
+    color: #FFFFFF;
+    padding-left: 75px;
+    padding-top: 250px;
+    font-size: 60px;
+}
+
+#texto-menu-superior{
+    color: #FFFFFF;
+    margin-left: 75px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#menu-dados{
+    background-color: #F9F9F9;
+    padding: 75px;
+}
+
+#caixa-dados{
+    display: flex;
+    grid-auto-flow: column;
+    columns: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+#caixa-dados spam{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#caixa-informacional{
+    margin-left: 75px;
+    align-items: center;
+}
+
+#titulo-informacional{
+    font-size: 40px;
+}
+
+#menu-informacional{
+    display: flex;
+    grid-auto-flow: column;
+    columns: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#imagem{
+    padding: 75px;
+}
+
+#formulario{
+    background-color: #303030;
+    text-align: center;
+}
+
+#titulo-final{
+    color: #FFFFFF;
+    padding-top: 75px;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+input{
+    width: 330px;
+    height: 45px;
+    background-color: #FFFFFF;
+    margin: 20px;
+    border: 0px;
+    border-radius: 7px;
+    padding-left: 20px;
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 15px;
+    }
+
+input::placeholder{
+    color: #000000; opacity: 30%;
+}
+
+button{
+    Width: 200px;
+    Height: 55px;
+    border-radius: 10px;
+    background-color: #C07212;
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'raleway';
+    }
+
+button:hover{
+        background-color: #C07212;
+        color: #ececec;
+        transform: translatey(-3px);
+        box-shadow: 0px 4px 7px rgb(114, 114, 114);
+        transition-duration: 0,5s;
+ }
